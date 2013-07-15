@@ -1,7 +1,7 @@
 #nav{
 	float:none;
-	width:80%;
-	list-style:none;
+	width:100%;
+  position:relative;  left:9%;  list-style:none;
 }
 #nav li{
 	float:left;
@@ -23,13 +23,12 @@ border-radius:10px;
 }
 #nav ul{ /* бшоюдючыхе осмйрш */
 	list-style:none;
-	position:absolute;
-	display: none;
+	position:absolute;  right:-27%;	    display:none;
 }
 #nav ul li{
 	padding-top:1px; 
 	float:none;
-	width: 100%;
+	width:100%;
 }
 #nav ul a{
 	white-space:nowrap; 
