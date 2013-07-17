@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'marmelad';
+    src: url('fonts/marmelad-regular.eot');
+    src: url('fonts/marmelad-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/marmelad-regular.woff') format('woff'),
+         url('fonts/marmelad-regular.ttf') format('truetype'),
+         url('fonts/marmelad-regular.svg#marmeladregular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
 .page
 {
 width:1200px;
@@ -26,11 +36,11 @@ box-shadow: 0px 3px 7px black;
 {
 color:black;
 border-radius:6px;
-margin: 8px auto;
+margin: -7px auto;
 background:83CD29;
 box-shadow: 0px 3px 7px black;
 }
 body
 {
-background:rgb(98,98,98);
+background: url(../images/bg_i.png) rgb(47,47,47) 100% 100% repeat-x ;
 }

@@ -1,10 +1,14 @@
-п»ї<html> 
+<html> 
 <head>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" /> 
-<link href="css/menu.css" rel="stylesheet" type="text/css" media="screen" /> <meta charset="utf-8"> 
-<title>NodeJs</title> <style> @font-face {  font-family: Marmelad; src: local(marmelad), url(fonts/Marmelad-Regular.ttf); } h1 {  font: 10pt/12pt Marmelad} h2 { font: 16pt/18pt Marmelad} </style> 
+<link href="css/menu.css" rel="stylesheet" type="text/css" media="screen" /> 
+<title>NodeJs</title> 
+<style>  
+h1 {  font: 11pt/12pt marmelad} 
+h2 { font: 13pt/15pt marmelad}
+</style> 
 </head> 
-<body> 
+<body>
 <div class='page'>
  <div class='head' align=center>
  </div>
@@ -12,24 +16,24 @@
  <div class='menu' align=center>
 <ul id="nav">
     <li>
-        <a href="index.html" title=""><h1>Р“Р»Р°РІРЅР°СЏ</h1></a>
+        <a href="index.html" title=""><h1>Главная</h1></a>
     </li>
     <li>
-        <a href="src/inform.html" title=""><h1>РРЅС„РѕСЂРјР°С†РёСЏ</h1></a>
+        <a href="src/inform.html" title=""><h1>Информация</h1></a>
     </li>
    <li>
-        <a href="#" title=""><h1>РЈС‡РµР±РЅРёРє</h1></a>
+        <a href="#"><h1>Учебник</h1></a>
         <ul>
-            <li><a href="src/javascript_nodejs.html"><h1>JavaScript Рё Node.js</h1></a></li>
-            <li><a href="#"><h1>Р’РµР±-РїСЂРёР»РѕР¶РµРЅРёРµ СЃ Node.js</h1></a></li>
-            <li><a href="#"><h1>Р РµР°Р»РёР·Р°С†РёСЏ РїСЂРёР»РѕР¶РµРЅРёСЏ</h1></a></li>
-            <li><a href="#"><h1>РћР±СЂР°Р±РѕС‚РєР° Р·Р°РіСЂСѓР·РєРё С„Р°Р№Р»РѕРІ</h1></a></li>
-            <li><a href="#"><h1>РћР±СЂР°Р±РѕС‚РєР° POST-Р·Р°РїСЂРѕСЃРѕРІ</h1></a></li>
-	    <li><a href="#"><h1>Р’С‹РІРѕРґС‹ Рё РїРµСЂСЃРїРµРєС‚РёРІС‹</h1></a></li>
+            <li><a href="src/javascript_nodejs.html"><h1>JavaScript и Node.js</h1></a></li>
+            <li><a href="#"><h1>Веб-приложение с Node.js</h1></a></li>
+            <li><a href="#"><h1>Реализация приложения</h1></a></li>
+            <li><a href="#"><h1>Обработка загрузки файлов</h1></a></li>
+            <li><a href="#"><h1>Обработка POST-запросов</h1></a></li>
+	    <li><a href="#"><h1>Выводы и перспективы</h1></a></li>
         </ul>
     </li>
      <li>
-        <a href="#" title=""><h1>Рћ СЃР°Р№С‚Рµ</h1></a>
+        <a href="#" title=""><h1>О сайте</h1></a>
     </li>
 
 </ul>
@@ -43,25 +47,26 @@
 	<img src='images\nodejs.png' width=20%>
 	</div>
 <div align=center>
-<h2>Node РёР»Рё Node.js вЂ” СЃРµСЂРІРµСЂРЅР°СЏ РїР»Р°С‚С„РѕСЂРјР°,
-РёСЃРїРѕР»СЊР·СѓСЋС‰Р°СЏ СЏР·С‹Рє РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ JavaScript, 
-РѕСЃРЅРѕРІР°РЅРЅР°СЏ<br /> РЅР° РґРІРёР¶РєРµ V8. РџСЂРµРґРЅР°Р·РЅР°С‡РµРЅР° РґР»СЏ СЃРѕР·РґР°РЅРёСЏ 
-РјР°СЃС€С‚Р°Р±РёСЂСѓРµРјС‹С… СЂР°СЃРїСЂРµРґРµР»С‘РЅРЅС‹С… СЃРµС‚РµРІС‹С… РїСЂРёР»РѕР¶РµРЅРёР№, С‚Р°РєРёС… 
-РєР°Рє РІРµР±-СЃРµСЂРІРµСЂ. Node.js РїРѕ С†РµР»СЏРј <br/>РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ СЃС…РѕРґРµРЅ СЃ 
-РєР°СЂРєР°СЃР°РјРё Twisted РЅР° СЏР·С‹РєРµ Python Рё EventMachine РЅР° Ruby. 
-Р’ РѕС‚Р»РёС‡РёРµ РѕС‚ Р±РѕР»СЊС€РёРЅСЃС‚РІР° РїСЂРѕРіСЂР°РјРј JavaScript, СЌС‚РѕС‚ РєР°СЂРєР°СЃ 
-РёСЃРїРѕР»РЅСЏРµС‚СЃСЏ <br />РЅРµ РІ Р±СЂР°СѓР·РµСЂРµ РєР»РёРµРЅС‚Р°, Р° РЅР° СЃС‚РѕСЂРѕРЅРµ СЃРµСЂРІРµСЂР°.<br/>
-РћСЃРЅРѕРІРЅРѕР№ СѓРїРѕСЂ РІ Node РґРµР»Р°РµС‚СЃСЏ РЅР° СЃРѕР·РґР°РЅРёРё РІС‹СЃРѕРєРѕРїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅС‹С…,<br/> 
-С…РѕСЂРѕС€Рѕ РјР°СЃС€С‚Р°Р±РёСЂСѓРµРјС‹С… РєР»РёРµРЅС‚СЃРєРёС… Рё СЃРµСЂРІРµСЂРЅС‹С… РїСЂРёР»РѕР¶РµРЅРёР№ РґР»СЏ В«РІРµР± СЂРµР°Р»СЊРЅРѕРіРѕ РІСЂРµРјРµРЅРёВ».<br/>
- Node.js СЂРµР°Р»РёР·СѓРµС‚ РЅРµРєРѕС‚РѕСЂС‹Рµ СЃРїРµС†РёС„РёРєР°С†РёРё CommonJS.<br/>
-РџРѕ СЃРІРѕРµР№ СЃСѓС‚Рё Node.js РїРѕС…РѕР¶ РЅР° С„СЂРµР№РјРІРѕСЂРєРё Perl AnyEvent, <br/>
-Ruby Event Machine, Python Twisted Рё СЂРµР°Р»РёР·Р°С†РёСЋ СЃРѕР±С‹С‚РёР№ РІ Tcl, <br/>
-РЅРѕ С†РёРєР» РѕР±СЂР°Р±РѕС‚РєРё СЃРѕР±С‹С‚РёР№ (event loop) РІ Node.js СЃРєСЂС‹С‚ РѕС‚ СЂР°Р·СЂР°Р±РѕС‚С‡РёРєР° Рё <br/>
-РЅР°РїРѕРјРёРЅР°РµС‚ РѕР±СЂР°Р±РѕС‚РєСѓ СЃРѕР±С‹С‚РёР№ РІ web-РїСЂРёР»РѕР¶РµРЅРёРё, СЂР°Р±РѕС‚Р°СЋС‰РµРј РІ Р±СЂР°СѓР·РµСЂРµ.</h2>
+<h2>Node или Node.js — серверная платформа,
+использующая язык программирования JavaScript, 
+основанная<br /> на движке V8. Предназначена для создания 
+масштабируемых распределённых сетевых приложений, таких 
+как веб-сервер. Node.js по целям <br/>использования сходен с 
+каркасами Twisted на языке Python и EventMachine на Ruby. 
+В отличие от большинства программ JavaScript, этот каркас 
+исполняется <br />не в браузере клиента, а на стороне сервера.<br/>
+Основной упор в Node делается на создании высокопроизводительных,<br/> 
+хорошо масштабируемых клиентских и серверных приложений для «веб реального времени».<br/>
+ Node.js реализует некоторые спецификации CommonJS.<br/>
+По своей сути Node.js похож на фреймворки Perl AnyEvent, <br/>
+Ruby Event Machine, Python Twisted и реализацию событий в Tcl, <br/>
+но цикл обработки событий (event loop) в Node.js скрыт от разработчика и <br/>
+напоминает обработку событий в web-приложении, работающем в браузере.</h2>
 </div>
  </div>
-<div class='foot' align=center>
-NodeJs В© 2013
+<div class='foot' align=center><h1>
+NodeJs © 2013
+</h1>
  </div>
 
 </div>
