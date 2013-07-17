@@ -32,6 +32,12 @@ background:rgb(77,77,77);
 border-radius:10px;
 box-shadow: 0px 3px 7px black;
 }
+.text 
+{
+color:white;
+background:rgb(77,77,77);
+width:70%;
+}
 .foot
 {
 color:black;
